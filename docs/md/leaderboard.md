@@ -3,7 +3,10 @@
 
 ## 🏆 排行榜
 
-<p class="text-center">最后更新于<strong>2023年6月15日</strong></p>
+暂未开放
+
+<!--
+<p class="text-center">最后更新于<strong>2023年12月27日</strong></p>
 
 <br/>
 
@@ -25,3 +28,4 @@
 | MOSS | **0.6526** | **0.5782** |
 | <span style="color:var(--bs-secondary)">***基线***<span> | 0.6236 | 0.5547 |
 | <span style="color:var(--bs-secondary)">***ChatGPT***<span> | 0.4639 | 0.2521 |
+ -->
