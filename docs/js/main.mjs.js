@@ -286,13 +286,8 @@ const RootComponent = {
           <div class="row text-center">
             <div class="col">
               <div class="rounded overflow-hidden py-4" style="border: 1px var(--pku-red) solid; color: var(--pku-red); --background:#4188bb;">
-<<<<<<< HEAD
                 <div class="h1 fw-bold m-0 p-0">CCL24-Eval</div>
-                <div>对话级指代消解及关系抽取评测</div>
-=======
-                <div class="h1 fw-bold m-0 p-0">CCL24-Eval</div>
-                <div>对话级指代消解及关系抽取评测</div>
->>>>>>> 77c6a47c702b4401f5b15879b743043f6b93252d
+                <div>对话级指代消解及关系抽取评测任务</div>
               </div>
             </div>
           </div>

@@ -33,10 +33,9 @@
 
 #### 2.1  <span id="data_intro">数据介绍<span>
 
-本次评测的数据集基于我们在NLPCC2023发布的数据集 DialogREC+: An Extension of DialogRE to Investigate How Much Coreference Helps Relation Extraction in Dialogs，为该数据集的2.0版本。除了提供原有的数据，我们还针对本次评测额外标注新的盲测集。计划提供的数据情况如下：
+本次评测的数据集基于我们在NLPCC2023发布的数据集 ***DialogREC+: An Extension of DialogRE to Investigate How Much Coreference Helps Relation Extraction in Dialogs***，为该数据集的2.0版本。除了提供原有的数据，我们还针对本次评测额外标注新的盲测集。计划提供的数据情况如下：
 
 
-**<center>表1 子任务2语义角色说明</center>**
 <center>
 <table class="table table-bordered">
 <thead>
@@ -67,7 +66,9 @@
 
 数据样例及说明如下。 
 
-一条数据对应一个字典，`"dialog"`为对话列表；`"Relations"`为关系三元组信息，其中，`"x""y"`分别为subject和object，`"rid"`为关系对应id，`"r"`为关系类型，`"t"`为trigger，`"x_type"`和`"y_type"`分别为subject和object的类型，`"predicted_rid"`为预测关系id；`"mentions"`和`"clusters"`分别为对话内每条共指链中的共指词及其出现的位置；`"predicted_clusters"`为预测的共指链。在盲测集中，`"rid"`、`"r"`、`"t"`、`"mentions"`和`"clusters"`字段为空。
+一条数据对应一个字典，`"dialog"`为对话列表；`"Relations"`为关系三元组信息，其中，`"x"`和`"y"`分别为subject和object，`"rid"`为关系对应id，`"r"`为关系类型，`"t"`为trigger，`"x_type"`和`"y_type"`分别为subject和object的类型，`"predicted_rid"`为预测关系id；`"mentions"`和`"clusters"`分别为对话内每条共指链中的共指词及其出现的位置；`"predicted_clusters"`为预测的共指链。
+
+在盲测集中，`"rid"`、`"r"`、`"t"`、`"mentions"`和`"clusters"`字段为空。
 
 > ```
 > {
@@ -94,7 +95,7 @@
 >                ["Pheebs","Speaker 2","your","Speaker 2", > "you","Speaker 2","I","I"], 
 >              	["Speaker 1","Speaker 1","Speaker 1","I","y","y","Speaker 1"]],
 >   "predicted_clusters":[] 
->   }
+> }
 >   ```
 
 
@@ -123,7 +124,7 @@
 
 
 ### 4.  <span id="schedule">评测赛程<span>
-**<center>表3 评测赛事日程</center>**
+
 <table class="table table-bordered">
 <thead>
 <tr>
@@ -177,7 +178,6 @@
 </tr>
 </tbody></table>
 
-（以上时间可能还会有调整，请关注网站最新消息）
 
 ### 5.  <span id="register">报名方式<span>
 
