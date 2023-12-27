@@ -5,7 +5,7 @@
 
 <p class="text-center">本页面用于发布关于 <strong>CCL2024对话级指代消解及关系抽取评测任务</strong> 的最新消息。
 <br/>
-<span style="color:var(--notice-red)"><strong>请各位参赛者保持关注本页面，了解评测最新动态和要求</strong></span>，谢谢!</p>
+<span style="color:var(--notice-red)"><strong>请及时关注本页面</strong></span></p>
 
 <br/>
 
